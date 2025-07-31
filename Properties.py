@@ -1,5 +1,5 @@
 # Indexing
-str = "suraj Aglave"
+str = "Suraj Aglave"
 ch = str[0] #ch = characters in string
 print(ch)
 
