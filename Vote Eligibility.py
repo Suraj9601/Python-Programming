@@ -7,3 +7,4 @@ elif(age < 18):
     print("Sorry")
     print("You are not Eligible for Vote.")
 
+ 
