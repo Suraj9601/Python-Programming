@@ -1,9 +1,20 @@
+'''
+# # # # # # # 
+#
+#
+# # # # # # #
+#
+#
+# # # # # # #
+
+'''
+
 def pat():
     print()
-    for i in range(1, 8):         # rows
-        for j in range(1, 8):     # cols
+    for i in range(1, 8):         
+        for j in range(1, 8):    
             if i == 1 or i == 4 or i == 7 or j == 1:
-                print("*", end=" ")
+                print("#", end=" ")
             else:
                 print(" ", end=" ")
         print()
