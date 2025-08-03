@@ -1,8 +1,24 @@
+'''
+# # # # # #   
+#           #
+#           #
+#           #
+#           #
+#           #
+# # # # # #
+
+'''
+
 def pat():
-    for i in range(1, 8):         # rows
-        for j in range(1, 8):     # cols
-            if i == 1 or i == 7 or j == 2 or j == 7:
-                print("*", end=" ")
+    for i in range(1, 8):         
+        for j in range(1, 8):    
+            
+            if (i,j) in [(1,7),(7,7)]:   
+                print(" ", end=" ")
+                
+            elif i == 1 or i == 7 or j == 1 or j == 7:
+                print("#", end=" ")
+                
             else:
                 print(" ", end=" ")
         print()
