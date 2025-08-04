@@ -10,24 +10,17 @@
 '''
 
 def pat():
-    for i in range(1, 10):         # rows
-        for j in range(1, 10):     # cols
-            
-            if i ==1 and 3 <= j :
+    for i in range(8):      # rows: 0 to 7
+        for j in range(8):  # cols: 0 to 7
+            # Top and bottom curves
+            if (i == 0 or i == 7) and 2 <= j <= 5:
                 print("#", end=" ")
-
-            elif  i == 9 and 3 <= j :
+            # Upper and lower sides
+            elif (i == 1 or i == 6) and (j == 1 or j == 6):
                 print("#", end=" ")
-
-            elif j == 1 and i >= 3:
+            # Left and right verticals
+            elif 2 <= i <= 5 and (j == 0 or j == 7):
                 print("#", end=" ")
-
-            elif   j == 9 and 3 <= i:
-                print("#", end=" ")
-
-            # elif  (i,j) in [(2,2),(8,2),(2,8),(8,8)]:
-            #     print("#", end=" ")
-
             else:
                 print(" ", end=" ")
         print()
