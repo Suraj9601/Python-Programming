@@ -1,5 +1,12 @@
-str = "Banana"
+str = "banana"
 print(f"Character Count from string : '{str}'")
-for i in str:
-    ele = str.count(i)
-    print(f"{i} : {ele}")
+
+char_count = {}
+
+for ch in str:
+    if ch in char_count:
+        char_count[ch] += 1
+    else:
+        char_count[ch] = 1
+
+print(char_count)
