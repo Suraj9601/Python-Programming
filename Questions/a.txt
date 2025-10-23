@@ -1,0 +1,31 @@
+Count vowels and consonants in a string.
+
+Count occurrences of each character in a string.
+
+Remove duplicates from a string. //
+
+Reverse words in a sentence.
+
+Check if two strings are anagrams.
+
+Print a right triangle pattern.
+
+Print a pyramid pattern.
+
+Print a diamond pattern.
+
+Logic / Algorithmic Programs
+
+Generate Fibonacci series.
+
+Find duplicates in a list.
+
+Find the first non-repeated character in a string.
+
+Find missing number in a list of 1 to N.
+
+Check if a list is sorted.
+
+Find intersection of two lists.
+
+Find all pairs in a list with a given sum.
