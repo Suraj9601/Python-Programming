@@ -1,8 +1,11 @@
 Reverse a string.
 Check if a string is a palindrome.
 Find factorial of a number.
-Check if a number is prime.
-Check if a number is Armstrong.
+
+Check if a number is prime. ||
+
+Check if a number is Armstrong. ||
+
 Find the largest and smallest number in a list.
 Find the second largest number in a list.
 Sum of elements in a list.
@@ -12,16 +15,13 @@ Count vowels and consonants in a string.
 Count occurrences of each character in a string.
 Remove duplicates from a string.
 Reverse words in a sentence.
-
 Check if two strings are anagrams.
-
 Print a right triangle pattern.
 
-Print a pyramid pattern.
+Print a pyramid pattern.||
 
 Print a diamond pattern.
 
-Logic / Algorithmic Programs
 
 Generate Fibonacci series.
 
