@@ -1,9 +1,15 @@
-num = int(input("Enter the number : "))
+try:
+    num = int(input("Enter the number : "))
+    
+    def evenOdd(num):
+        if num % 2 == 0:
+            print("Number is Even.")
+        else :
+            print("Number is Odd.")
+    evenOdd(num)
 
-def evenOdd(num):
-    if num % 2 == 0:
-        print("Number is Even.")
-    else :
-        print("Number is Odd.")
+except ValueError:
+    print('Invalid Input. Please Enter integer value.')
+    
 
-evenOdd(num)
+
